@@ -4,7 +4,7 @@
 		module="scala-sample-api_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180919201122"
+		publication="20180919203110"
 	>
 		<description>
 		scala-sample-api
@@ -33,5 +33,10 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http-experimental_2.11" rev="2.4.10" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-spray-json-experimental_2.11" rev="2.4.10" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick_2.11" rev="3.1.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick-hikaricp_2.11" rev="3.1.1" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.38" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-nop" rev="1.6.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
